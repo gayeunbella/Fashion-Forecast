@@ -41,12 +41,12 @@ a{
 #whattowear{
   position: relative;
   top: 10%;
-  font-weight: bolder;
 }
 
 #closet{
   position: relative;
   top: 15%;
+  font-weight: bolder;
 }
 
 #settings{
