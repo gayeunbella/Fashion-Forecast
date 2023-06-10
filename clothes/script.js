@@ -1,7 +1,20 @@
-const beigecargos = document.getElementById("beigecargos");
-beigecargos.addEventListener("click", function(e){
-    console.log("The button was clicked");
-})
+function beigecargosclicked() {
+    console.log('beige cargos clicked')
+    document.getElementById("beigecargos").style.backgroundColor="#FFCD3D"
+
+}
+
+window.onload = function() {
+    const beigecargos = document.getElementById("beigecargos");    
+
+    if (beigecargos)
+    beigecargos.addEventListener("click", beigecargosclicked)
+
+
+}
+
+
+
 
 const blackcargos = document.getElementById("blackcargos");
 const cardigan = document.getElementById("cardigan");
