@@ -19,13 +19,9 @@ body{
   background: #FFCD3D
 }
 
-br {
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .form{
-width: 400px;
+width: 800px;
 height: auto; 
 color: #000000;
 text-align: center;
