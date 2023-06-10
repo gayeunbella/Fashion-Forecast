@@ -9,14 +9,21 @@ window.onload = function() {
 
     if (beigecargos)
     beigecargos.addEventListener("click", beigecargosclicked)
+}
 
+function blackcargosclicked() {
+    console.log('black cargos clicked');
+    document.getElementById("blackcargos").style.backgroundColor="#FFE69C";
 
 }
 
+window.onload = function() {
+    const blackcargos = document.getElementById("blackcargos");
+    if (blackcargos) {
+        blackcargos.addEventListener("click", blackcargosclicked);
+    }
+}
 
-
-
-const blackcargos = document.getElementById("blackcargos");
 const cardigan = document.getElementById("cardigan");
 const crewneck1 = document.getElementById("crewneck1");
 const crewneck2 = document.getElementById("crewneck2");

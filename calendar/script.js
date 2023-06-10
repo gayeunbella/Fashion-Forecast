@@ -1,5 +1,9 @@
 const date = new Date();
 
+function redirect(location) { // important!
+  window.location.href = '/' + location
+}
+
 const renderCalendar = () => {
   date.setDate(1);
 
@@ -59,7 +63,7 @@ const renderCalendar = () => {
     ) {
       days += `<div class="today">${i}</div>`;
     } else {
-      days += `<div>${i}</div>`;
+      days += `<div onclick="redirect(${i})">${i}</div>`;
     }
   }
 
