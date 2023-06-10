@@ -51,20 +51,29 @@ html {
     left: 7%;
     color: #FFCD3D;
 }
-
 button{
+    height: 50px;
+    width: 110px;
+    padding: 9px 25px;
     background-color: #FFCD3D;
-    border-radius: 2rem;
-    height: 3.5rem;
-    width: 8rem;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-left: 5rem;
     border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease 0.1s;
+    font-size: 15px;
 }
 
-button:hover{
-    transform: scale(1.05);
+.btn1{
+    margin-left: 15px;
+}
+
+.btn2{
+    margin-right: 15px;
+}   
+
+button:hover {
+    background-color: #FFCD3D ;
+    opacity: 0.75;
 }
 
 #signup{
@@ -76,5 +85,11 @@ button:hover{
 #login{
     position: absolute;
     top: 63%;
-    left: 11%;
+    left: 17%;
+}
+
+#register{
+    position: absolute;
+    top: 63%;
+    left: 9%;
 }
