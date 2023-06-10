@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html>
 
 <head>
 
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Register Page</title>
+  <title>Login Page</title>
   <link href="form.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div class="alert-box">
+  <p class = "al"></p>
+  </div>
  
   <div class = "form"> 
-    <input type = "text" placeholder = "name" autocomplete = "off" class = "name" required>
-    <input type = "text" placeholder = "email" autocomplete = "off" class = "email" required>
-    <input type = "text" placeholder = "password" autocomplete = "off" class = "password" required>
-    <button class = "submit-btn">register</button>
-    <a href = "#" class = "link">already have an account? log in here</a>
+    <div class="header"></div>
+    <img class="logo" src="images/logowhite.png" alt="logo"/>
+    <br>
+    <h1 class="heading">register</h1>
+    <input type="email" placeholder= "Email" autocomplete="off" class="inputs" style="height:20px; width:140px;" required> 
+    <input type="name" placeholder= "Name" autocomplete="off" class="inputs" style="height:20px; width:140px;" required>
+    <input type="password" placeholder= "Password" autocomplete="off" class="inputs" style="height:20px; width:140px;" required>
+    <button class = "inputs" style="height:20px; width:50px;">register</button>
+    <br>
+    <br>
+    <a href="login.html" class = "link"> <p style = "text-align: center;">already have an account? log in here</p></a>
   </div>
-
 
   <script src="js/form.js"></script>
 </body>
