@@ -5,51 +5,60 @@ html {
     width: 100%;
     margin-left: -8px;
     font-family: 'Inter', sans-serif;
-    background: url(images/bg.png)
+}
+
+a{
+color:black;
+font-style: normal;
 }
 
 #navbar{
-    position: fixed;
-    z-index: 50;
-    top: 0;
-    width: 100%;
-    height: 4rem;
-    background-color: #eee;
-    box-shadow: 5px;
+position: fixed;
+z-index: 50;
+top: 0;
+width: 100%;
+height: 4rem;
+background-color: #eee;
+box-shadow: 5px;
 }
 
 #navlogo{
-    height:4rem;
-    width:auto;
-}
-#homebg{
-    height:100%;
-    width:auto;
-    position: absolute;
-    right:0;
-}
-    
-#homebgcover{
-    height:100%;
-    width:auto;
-    position: absolute;
-    left:0;
+height:4rem;
+width:auto;
+position: relative;
+top: -10px;
 }
 
-#title{
-    font-weight: bold;
-    font-size:40px;
-    position:absolute;
-    top: 40%;
-    left: 5%;
+#loggedin_navbar{
+height: 100%;
+position: fixed;
+width: 20%;
+background-color: #FFCD3D;
+font-size: 2rem;
+color: black;
+padding-left:0.7rem;
+font-weight: lighter;
 }
 
-#description{
-    font-size:30px;
-    position:absolute;
-    top: 51.8%;
-    left: 7%;
-    color: #FFCD3D;
+#whattowear{
+position: relative;
+top: 10%;
+}
+
+#closet{
+position: relative;
+text-decoration: underline;
+top: 15%;
+}
+
+#settings{
+position: relative;
+top: 20%;
+}
+
+#signout{
+position: relative;
+top: 77%;
 }
 
 /* external css: flickity.css */

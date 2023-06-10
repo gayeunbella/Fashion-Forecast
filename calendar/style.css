@@ -11,6 +11,11 @@
     font-size: 62.5%;
   }
   
+  a{
+    color:black;
+    font-style: normal;
+    }
+
   #navbar{
     position: fixed;
     z-index: 50;

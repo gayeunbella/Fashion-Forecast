@@ -5,6 +5,11 @@ html {
   font-family: 'Inter', sans-serif;
 }
 
+a{
+  color:black;
+  font-style: normal;
+}
+
 #navbar{
   position: fixed;
   z-index: 50;
