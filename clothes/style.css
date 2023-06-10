@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin-left: -8px;
+  font-family: 'Inter', sans-serif;
+  background: url(images/bg.png)
+}
+
+#navbar{
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #eee;
+  box-shadow: 5px;
+}
+
+#navlogo{
+  height:4rem;
+  width:auto;
+}
+
+#loggedin_navbar{
+  height: 100%;
+  position: fixed;
+  width: 20%;
+  color: #FFCD3D;
+}
+
+#whattowear{
+
+}
