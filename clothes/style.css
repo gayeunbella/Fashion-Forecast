@@ -7,7 +7,7 @@ html {
 
 a{
   color:black;
-  font-style: normal;
+  text-decoration:none;
 }
 
 #navbar{
@@ -41,11 +41,11 @@ a{
 #whattowear{
   position: relative;
   top: 10%;
+  font-weight: bolder;
 }
 
 #closet{
   position: relative;
-  text-decoration: underline;
   top: 15%;
 }
 
