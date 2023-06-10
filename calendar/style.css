@@ -11,6 +11,54 @@
     font-size: 62.5%;
   }
   
+  #navbar{
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    width: 100%;
+    height: 6.4rem;
+    background-color: #eee;
+    box-shadow: 5px;
+  }
+  
+  #navlogo{
+    height:6.4rem;
+    width:auto;
+  }
+  
+  #loggedin_navbar{
+    height: 100%;
+    position: fixed;
+    width: 20%;
+    background-color: #FFCD3D;
+    font-size: 3.2rem;
+    color: black;
+    padding-left:1rem;
+    font-weight: lighter;
+  
+  }
+  
+  #whattowear{
+    position: relative;
+    text-decoration: underline;
+    top: 10%;
+  }
+  
+  #closet{
+    position: relative;
+    top: 15%;
+  }
+  
+  #settings{
+    position: relative;
+    top: 20%;
+  }
+  
+  #signout{
+    position: relative;
+    top: 77%;
+  }
+
   .container {
     width: 100%;
     height: 100vh;
