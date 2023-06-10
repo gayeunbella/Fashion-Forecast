@@ -63,6 +63,10 @@ button{
     border: none;
 }
 
+button:hover{
+    transform: scale(1.05);
+}
+
 #signup{
     position: absolute;
     top: 63%;
