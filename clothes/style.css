@@ -19,6 +19,8 @@ html {
 #navlogo{
   height:4rem;
   width:auto;
+  position: relative;
+  top: -10px;
 }
 
 #loggedin_navbar{
@@ -28,9 +30,8 @@ html {
   background-color: #FFCD3D;
   font-size: 2rem;
   color: black;
-  padding-left:1rem;
+  padding-left:0.7rem;
   font-weight: lighter;
-
 }
 
 #whattowear{
