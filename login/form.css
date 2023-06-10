@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 *:focus{
   outline: none;
 }
@@ -15,21 +16,22 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('../img/bg.png');
-  background-size: cover;
-  background-position: center; 
-  font-family: 'roboto', sans-serif;
+  background: #FFCD3D
 }
 
-
+br {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .form{
-
 width: 400px;
 height: auto; 
 color: #000000;
+text-align: center;
 font-family: 'roboto', sans-serif;
 }
+
 .heading{
 text-transform: capitalize;
 text-align: center;
@@ -38,10 +40,11 @@ font-weight: 300;
 margin-bottom: 50px;
 }
 
-.header {
-  padding: 60px;
-  background: #1abc9c;
-  width: 100%;
+.logo {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*
