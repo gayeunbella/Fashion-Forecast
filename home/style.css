@@ -1,6 +1,7 @@
 html {
     height: 100%;
     width: 100%;
+    margin-left: -8px;
 }
 
 #navbar{
@@ -8,13 +9,24 @@ html {
     z-index: 50;
     top: 0;
     width: 100%;
-    height: 6rem;
-    background-color: white;
+    height: 4rem;
+    background-color: #eee;
 }
 
+#navlogo{
+    height:4rem;
+    width:auto;
+}
 #homebg{
     height:100%;
-    width:60%;
+    width:auto;
+    position: absolute;
+    right:0;
 }
     
-    
+#homebgcover{
+    height:100%;
+    width:auto;
+    position: absolute;
+    left:0;
+}
