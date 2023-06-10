@@ -38,6 +38,12 @@ font-weight: 300;
 margin-bottom: 50px;
 }
 
+.header {
+  padding: 60px;
+  background: #1abc9c;
+  width: 100%;
+}
+
 /*
 input{
   width: 80%;
