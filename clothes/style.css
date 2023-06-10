@@ -25,9 +25,79 @@ html {
   height: 100%;
   position: fixed;
   width: 20%;
-  color: #FFCD3D;
+  background-color: #FFCD3D;
+  font-size: 2rem;
+  color: black;
+  padding-left:1rem;
+  font-weight: lighter;
+
 }
 
 #whattowear{
+  position: relative;
+  top: 10%;
+}
 
+#closet{
+  position: relative;
+  text-decoration: underline;
+  top: 15%;
+}
+
+#settings{
+  position: relative;
+  top: 20%;
+}
+
+#signout{
+  position: relative;
+  top: 77%;
+}
+
+#title{
+  width: 80%;
+  position: absolute;
+  right: 0;
+  top: 14%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#description{
+  width: 80%;
+  position: absolute;
+  right: 0;
+  top: 23%;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clothes{
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+
+button{
+  position: relative;
+  margin: 2.02rem;
+  width: 220px;
+  height: 220px;
+  background-color: #eee;
+  border-radius: 30px;
+  border: none;
+}
+
+
+
+.desc{
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
 }
