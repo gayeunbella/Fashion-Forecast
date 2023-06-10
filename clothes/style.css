@@ -90,7 +90,9 @@ button{
   border: none;
 }
 
-
+button:hover{
+  transform: scale(1.05);
+}
 
 .desc{
   margin-top: 10px;
