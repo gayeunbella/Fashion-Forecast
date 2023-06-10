@@ -1,4 +1,5 @@
 from requests_html import HTMLSession
+import json
 
 s = HTMLSession()
 
@@ -14,3 +15,14 @@ high = r.html.find('div.gNCp2e span.wob_t', first = True).text
 low =  r.html.find('div.QrNVmd.ZXCv8e span.wob_t', first = True).text
 
 print(currenttemp+"°c", high+"°c", low+"°c")
+
+with open("python webscraping/temperature.json", "w") as f:
+    f.write(json.JSONEncoder().encode({
+        "high": high,
+        "low": low
+    }))
+
+    print(json.JSONEncoder().encode({
+        "high": high,
+        "low": low
+    }))
