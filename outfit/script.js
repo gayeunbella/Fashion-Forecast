@@ -11,3 +11,5 @@ async function logJSONData() {
   }
   
 window.onload = logJSONData;
+
+// external js: flickity.pkgd.js
