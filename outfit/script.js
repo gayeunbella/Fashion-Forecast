@@ -1,8 +1,9 @@
 async function logJSONData() {
-    try {
-    const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?lat=43&lon=-80&cnt=14&appid=1603e506aac1347e2bcad80de8c6599f`);
+  let response;  
+  try {
+    response = await fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?lat=43&lon=-80&appid=1603e506aac1347e2bcad80de8c6599f`);
     }
-    catch {
+  catch {
         console.log('error fetching data')
     }
 
