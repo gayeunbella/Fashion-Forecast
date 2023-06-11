@@ -46,17 +46,21 @@
   #whattowear{
     position: relative;
     top: 10%;
+    font-weight: bolder;
+
   }
   
   #closet{
     position: relative;
     top: 15%;
+    font-weight: bolder;
+
   }
   
   #settings{
     position: relative;
     top: 20%;
-    font-weight: bolder;
+    font-weight: bold;
   }
   
   #signout{
