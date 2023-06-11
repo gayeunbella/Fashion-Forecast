@@ -23,10 +23,26 @@
 
   <p><code>wrapAround: true</code></p>
 
+
+  <div id = "debug">
+    <br />
+    <br />
+    <p id = 'debugtext' class = 'temperature'>PLACEHOLDER</p>
+  </div>
+
 <!-- Carousel below -->
 
+
 <!-- Slideshow container -->
-<div class="slideshow-container">
+  <script type="module">
+    fetch("../python_webscraping/temperature.json")
+      .then(response => response.json())
+      .then(data => {
+        console.log(data)
+        document.getElementById("debugtext").textContent = "Today's high is " +data.high +"°c. Today's low is "+ data.low +"°c."
+      })
+  </script>
+  <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
