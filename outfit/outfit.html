@@ -39,7 +39,7 @@
       .then(response => response.json())
       .then(data => {
         console.log(data)
-        document.getElementById("debugtext").textContent = "Today's high is " +data.high +"°c. Today's low is "+ data.low +"°c."
+        document.getElementById("debugtext").textContent = "Today's high is " +data.high +"°c. Today's low is "+ data.low +"°c. It is currently " + data.conditions+"."
       })
   </script>
   <div class="slideshow-container">

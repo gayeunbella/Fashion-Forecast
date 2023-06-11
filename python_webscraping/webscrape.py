@@ -14,15 +14,19 @@ high = r.html.find('div.gNCp2e span.wob_t', first = True).text
 
 low =  r.html.find('div.QrNVmd.ZXCv8e span.wob_t', first = True).text
 
-print(currenttemp+"°c", high+"°c", low+"°c")
+conditions =  r.html.find('div.wob_dcp span.wob_dc', first = True).text
+
+print(currenttemp+"°c", high+"°c", low+"°c", conditions)
 
 with open("python webscraping/temperature.json", "w") as f:
     f.write(json.JSONEncoder().encode({
         "high": high,
-        "low": low
-    }))
+        "low": low,
+        "conditions": conditions
+        }))
 
     print(json.JSONEncoder().encode({
         "high": high,
-        "low": low
-    }))
+        "low": low,
+        "conditions": conditions
+        }))
